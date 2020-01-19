@@ -30,6 +30,9 @@ This project is our Todo app as we should have completed it from the last projec
       // code continues
     ```
 
+
+    
+
 1. If VScode didn't automatically import `ITodo` for you, make sure you write import statement at the top of the file so you have access to it.
 1. By now your todo app should be broken! You should get an error that says something like: "...is not assignable to parameter of type 'ITodo'."
 1. To fix this adjust your `addTodo` method:
@@ -114,6 +117,12 @@ This project is our Todo app as we should have completed it from the last projec
       <!-- more code is here -->
       <!-- ...... -->
     ```
+
+
+
+
+
+
 1. Give the ConfirmationModal the ability to control itself with a property `modalInstance`
 1. When the yes button is clicked, close the modal and send a result of "yes". `this.modalInstance.close("yes")`
 1. Code `todo.component.ts`
