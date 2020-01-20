@@ -24,6 +24,8 @@ import { TodoListComponent } from './todo-list/todo-list.component';
     NgbModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents:[ConfirmationModalComponent]
+  
 })
 export class AppModule { }
