@@ -6,7 +6,7 @@ import { ITodo } from '../interfaces/itodo';
 })
 export class TodoService {
   Title='Todos';
-  todoList: ITodo []=[];
+  todoList: ITodo []=[{id:1, title: 'first to do', description: 'description'}];
   todoTitle: string;
  todoId: number = 0;
   
